@@ -1,0 +1,198 @@
+.body-container{
+    background-image: linear-gradient(to right,rgb(255, 0, 234,1) , rgb(38, 0, 255, 0.6),rgb(0, 0, 0, 0.5));
+    height: 85vh;
+    margin-bottom: 15%;
+}
+.navbar-brand{
+    margin-left: 50px;
+    margin-right: 0px;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-link{
+    font-size: 15px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    color: white !Important;
+}
+.sign-button{
+    float: right;
+    color: white;
+    font-weight: bold;
+    margin-right: 5%;
+    border-radius: 20px;
+    border-style: none;
+    padding: 5px 10px 5px 10px;
+    background: rgba(255, 255, 255, 0.3);
+}
+#navbarNav{
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.add-employee-left{
+    float: left;
+    margin-left: 80px;
+    height: 50vh;
+}
+.left-button{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 5px 30px 5px 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: auto;
+    border-style: none;
+    text-align: center;
+}
+#left-p1{
+    color: white;
+    font-family: serif, Georgia;
+    font-size: 3.5rem;
+    line-height: 12vh;
+    word-spacing: 8px;
+    margin-bottom: 10%;
+    letter-spacing: 2px;
+}
+#left-p2{
+    color: gray;
+    margin-top: 50px;
+    font-family: Verdana, sans-serif;
+    word-spacing: 4px;
+    font-size: 1rem;
+    opacity: 0.8;
+    line-height: 2;
+}
+.buttonIn {
+    width: 50vh;
+    position: relative;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+#enter{
+background: rgba(255, 255, 255, 0.3);
+border-style: none;
+font-size: 1em;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+padding: 10px;
+width: 100%;
+outline: none;
+height: 55px;
+border-radius: 10px;
+}
+#get-started{
+    position: absolute;
+    margin-right: 10px;
+    border-radius: 10px;
+    right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 8px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    opacity: 0.7;
+}
+#enter::placeholder {
+    color: white;
+    opacity: 1;
+}
+.add-employee-right{
+    float: right;
+    background-image: linear-gradient(to right,rgb(255, 255, 255,0.2) , rgba(0, 195, 255, 0.671));
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 85vh;
+    height: 38vh;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.add-employee-right p{
+    color: #fff;
+}
+.add-employee-right span{
+    color:#fff;
+    float: right;
+    padding-right: 10px;
+    font-size: 0.7em;
+}
+.job-detail{
+    float: right;
+    background-color: white;;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: none;
+    width: 60vh;
+    height: auto;
+    padding: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 6%;
+    z-index: 1;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.job-list{
+    padding-left: 10px; 
+    list-style-type: none;
+}
+.job-list li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+.job-list span{
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+.job-list input{
+    border-style: none;
+    background-color: rgba(0, 255, 255, 0.3);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding: 12px 0px 10px 12px;
+    font-size: 0.8rem;
+    width: 38vh;
+}
+.job-list input::placeholder{
+    color: blue;
+    opacity: 0.5;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-2 ul li{
+    display: inline;
+    padding: 100px;
+    font-size: 1.8em;
+    color: blue;
+    opacity: 0.7;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-2 img{
+    border-radius: 50%;
+    background-color:rgba(50, 50, 50, 0.1)
+}
+.container-3{
+
+}
